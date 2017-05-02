@@ -1,0 +1,210 @@
+	/* reset styles */
+	html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
+}
+
+table { border-collapse: collapse; border-spacing: 0; }
+td, th, caption { font-weight: normal; text-align: left; }
+img, fieldset { border: 0; }
+ol { padding-left: 1.4em; list-style: decimal; }
+ul { padding-left: 1.4em; list-style:none; text-decoration: none}
+a {text-decoration: none; color: black;}
+q:before, q:after { content:''; }
+
+/* end reset styles */
+
+body {
+	
+	font-size: 62.5%;	
+	font-family: 'Raleway', sans-serif;
+	width: 100%;
+
+}
+
+
+
+.navbar1 {
+	position: fixed;
+	background-color: rgb(38,31,61);
+	height: 120px;
+	width: 100%;
+	z-index: 100;
+
+}
+
+div#logo {
+	box-sizing: border-box;
+	display: inline-block;
+	position: relative;
+	left:100px;
+	top:20px;
+}
+
+img {
+	width: 70px;
+}
+
+
+
+
+ul.opciones {
+	display: inline-block;
+	position: relative;
+	left:600px;
+	width: 600px;
+	height: 50px; 
+}
+
+
+li {
+
+	display: inline-block;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	
+}
+
+
+li.login {
+	border-radius: 18px;	
+	border: 1px solid white;	
+}
+
+nav a {
+	color: white;
+	display: inline-block;
+	margin-top: 15px;
+	top: 20px;
+	transition: .4s;
+	font-size: 1.8em;
+	letter-spacing: .5px;
+	width: 100px;
+	font-weight: bold;
+	
+}
+
+nav a:hover {
+	color: rgba(213,5,165,0.6);
+}
+
+
+li#explorer:hover {
+	background-color: yellow;
+
+}
+
+
+.navbar2 {
+	height: 90px;
+	width: 100%;
+	border:2px solid rgb(51,52,71) ;
+	visibility: hidden;
+	padding-top: 100px;
+
+}
+
+.visible {
+
+	visibility:visible;
+
+}
+
+
+.navbar2 ul {
+	width: 100%;
+	position: relative;
+	left:0;
+	top: 20px;
+}
+
+
+.navbar2 li {
+	position: relative;
+	left:350px;
+	text-align: center;
+	width: 120px;
+	padding: 0;
+	margin:0;
+	
+
+}
+
+.navbar2 a {	
+	color:rgb(51,52,71);
+}
+
+
+#registro {
+position: relative;
+top:26px;
+width: 100%;
+
+}
+
+
+
+form {
+	border: 1px solid black;
+	width: 400px;
+	position: absolute;
+	right:0px;
+	background: white;
+	height: 450px;
+}
+
+fieldset {
+	border: 1px solid black;
+	width: 300px;
+	margin-left: 50px;
+
+}
+
+legend {
+	font-weight: bold;
+	font-size: 4em;
+}
+
+
+section {
+	position: absolute;
+	color:rgb(255,255,255);
+	top:380px;
+	left:60px;
+	line-height: 2;
+
+}
+
+section h2 {
+ font-size: 2.5em;
+ font-weight: bold;
+ 
+ 
+}
+
+
+section p {
+	font-size: 1.8em;
+}
+
+section img {
+	position: absolute;
+	width: 350px;
+	height: 350px;
+	top:2px;
+	right:-350px;
+}
+
+video {
+	width: 100%;
+	position:relative;
+	z-index: -1;
+	opacity: 1;
+
+}
+
+
+
